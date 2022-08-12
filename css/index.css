@@ -1,0 +1,136 @@
+ body {
+     background-image: url(../images/backcover.svg);
+     background-repeat: no-repeat;
+     background-size: 900px;
+
+     background-position: right;
+ }
+
+ .main-div {
+     width: 100%;
+     height: auto;
+
+ }
+
+ .main-div>nav {
+
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     margin-top: 50px;
+     margin-left: 30px;
+ }
+
+ .nav-items {
+     width: 70%;
+
+     display: flex;
+     flex-direction: row;
+     gap: 50px;
+     justify-content: center;
+ }
+
+ .nav-item {
+     font-family: 'Roboto', serif;
+     color: #424989;
+     font-weight: 600;
+     font-size: 15px;
+     font-style: solid;
+
+
+ }
+
+ nav>button {
+
+
+     margin-top: 20px;
+     text-align: center;
+     color: white;
+     font-weight: 600;
+     font-size: 15px;
+     font-style: solid;
+     white-space: nowrap;
+     border-style: solid;
+     border-left-color: #965CF2;
+     border-right-color: #FF8ADC;
+     border-top: #965CF2;
+     border-bottom: #FF8ADC;
+     background: linear-gradient(90deg, #965CF2, #FF8ADC);
+     border-radius: 20px;
+     height: 30px;
+     padding: 0px 20px;
+ }
+
+ .intro-section {
+     width: 100%;
+     height: auto;
+ }
+
+ .left-section {
+     float: left;
+     width: 35%;
+ }
+
+ .left-section>h1 {
+     color: #3E4794;
+     font-family: 'Roboto', serif;
+     font-style: solid;
+     font-size: 70px;
+     font-weight: 1200;
+     font-display: swap;
+     margin-top: 100px;
+     margin-left: 30px;
+ }
+
+ .left-section>h4 {
+     color: #54597D;
+     margin-left: 30px;
+     font-size: 17px;
+     width: 70%;
+     font-weight: 800;
+
+ }
+
+ .left-section>button {
+     text-align: center;
+     color: white;
+     font-family: 'Roboto', serif;
+     font-weight: 600;
+     font-size: 18px;
+     font-style: solid;
+     white-space: nowrap;
+     border-style: solid;
+     border-left-color: #965CF2;
+     border-right-color: #FF8ADC;
+     border-top: #965CF2;
+     border-bottom: #FF8ADC;
+     background: linear-gradient(90deg, #965CF2, #FF8ADC);
+     border-radius: 20px;
+     padding: 14px 20px;
+     margin-left: 30px;
+     letter-spacing: 2px;
+ }
+
+ .imgs-div {
+     float: right;
+     width: 60%;
+     height: 100vh;
+ }
+
+ .vector-img {
+
+     position: absolute;
+     top: 500px;
+ }
+
+ .vector-dot {
+     position: absolute;
+     top: 500px;
+     left: 600px;
+
+ }
+
+ .imgs-div>img:nth-child(3) {
+     height: 550px;
+
+ }
