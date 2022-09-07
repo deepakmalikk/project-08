@@ -15,6 +15,7 @@
 - What I learned from this Project?
   - 
   - Learned about background-image,background-size and background-position properties.
+  - Learned how to add different color in background using `linear-gradient()` function.
   - Learned how to acces type selector in CSS.
   - How to acess nth-child in CSS.
   - How to use different Google Fonts in webpage.
